@@ -3,9 +3,9 @@ const mysql = require('mysql2');
 
 // Crear una conexión a la base de datos MySQL
 const connection = mysql.createConnection({
-    host: 'localhost', // Dirección del servidor MySQL
-    user: 'Matt',      // Usuario de la base de datos
-    password: '14241543', // Contraseña del usuario
+    host: 'database-1.c3u4cniuznve.us-east-2.rds.amazonaws.com', // Dirección del servidor MySQL
+    user: 'xmaiguel',      // Usuario de la base de datos
+    password: 'xelena20012001', // Contraseña del usuario
     database: 'gps_data'  // Nombre de la base de datos
 });
 
